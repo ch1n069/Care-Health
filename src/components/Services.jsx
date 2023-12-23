@@ -1,5 +1,4 @@
 import React from "react";
-import { MdHealthAndSafety } from "react-icons/md";
 import { FaArrowAltCircleRight } from "react-icons/fa";
 const Services = () => {
   return (
