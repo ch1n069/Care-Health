@@ -1,5 +1,5 @@
 import React from "react";
-import { FaArrowAltCircleRight } from "react-icons/fa";
+// import { FaArrowAltCircleRight } from "react-icons/fa";
 const Services = () => {
   return (
     <div className="max-w-[100%] h-[100%] bg-black mx-auto my-20 pt-16 lg:mb-[20%] md:mb-[35%] px-4 grid lg:grid-cols-3 gap-4 text-white">
