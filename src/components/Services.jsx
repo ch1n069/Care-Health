@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 const Services = () => {
   return (
-    <div className="max-w-[100%] h-[100%] bg-black mx-auto my-20 pt-16 lg:mb-[20%] md:mb-[35%] px-4 grid lg:grid-cols-3 gap-4 text-white">
+    <div className="max-w-[100%] h-[100%] bg-black mx-auto my-20 pt-16 lg:mb-[30%] md:mb-[35%] px-4 grid lg:grid-cols-3 gap-4 text-white">
       <div className="lg:top-20 relative lg:col-span-1 col-span-2">
         <h3 className="text-2xl font-bold">Our Services</h3>
         <span className="block w-20 h-1 bg-white mt-5 mb-4"></span>{" "}
