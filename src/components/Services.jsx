@@ -15,7 +15,6 @@ const Services = () => {
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. iure laborum!
           Perferendis, id sed vero, facilis blanditiis illo aliquid soluta
-          incidunt minima voluptate quae earum laboriosam obcaecati amet.{" "}
         </p>
         <button className="mt-4">
           <Link to="/services">Learn More</Link>
@@ -34,8 +33,6 @@ const Services = () => {
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Necessitatibus ad quos iure laborum! Perferendis, id sed vero,
-            facilis blanditiis illo aliquid soluta incidunt minima voluptate
-            quae earum laboriosam obcaecati amet.
           </p>
           <button className="mt-4">Learn More</button>{" "}
         </div>
