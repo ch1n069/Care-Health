@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { HiMenuAlt3 } from "react-icons/hi";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -28,11 +29,13 @@ const Navbar = () => {
         }
       >
         <ul className="flex flex-col fixed w-full h-full items-center justify-center">
-          <li className="font-bold text-3xl p-8">Home</li>
-          <li className="font-bold text-3xl p-8">Destinations</li>
-          <li className="font-bold text-3xl p-8">Reservations</li>
-          <li className="font-bold text-3xl p-8">Amenities</li>
-          <li className="font-bold text-3xl p-8">Rooms</li>
+          <Link className="font-bold text-3xl p-8">Home</Link>
+          <Link to="/offers" className="font-bold text-3xl p-8">
+            Offers
+          </Link>
+          <Link className="font-bold text-3xl p-8">Services</Link>
+          <Link className="font-bold text-3xl p-8">Testimonials</Link>
+          <Link className="font-bold text-3xl p-8">Careers</Link>
         </ul>
       </div>
     </div>

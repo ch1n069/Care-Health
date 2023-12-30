@@ -1,5 +1,6 @@
 import React from "react";
 // import { FaArrowAltCircleRight } from "react-icons/fa";
+import { Link } from "react-router-dom";
 const Services = () => {
   return (
     <div className="max-w-[100%] h-[100%] bg-black mx-auto my-20 pt-16 lg:mb-[20%] md:mb-[35%] px-4 grid lg:grid-cols-3 gap-4 text-white">
@@ -16,7 +17,9 @@ const Services = () => {
           Perferendis, id sed vero, facilis blanditiis illo aliquid soluta
           incidunt minima voluptate quae earum laboriosam obcaecati amet.{" "}
         </p>
-        <button className="mt-4">Learn More</button>{" "}
+        <button className="mt-4">
+          <Link to="/services">Learn More</Link>
+        </button>{" "}
         <div className="mt-4">
           <h5 className="text-2xl font-bold">Personal Support Worker</h5>
           <p>
