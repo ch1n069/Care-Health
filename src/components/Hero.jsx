@@ -13,13 +13,13 @@ const Hero = () => {
         <div className="md:left-[10%] max-w-[1100px] m-auto absolute p-4">
           <p>Candice Health Care</p>
           <h1 className="font-bold text-5xl md:text-7xl drop-shadow-2xl">
-            Offering quality health care services
+            Empowering Health, Inspiring Lives
           </h1>
           <p className="max-w-[600px] drop-shadow-2xl py-2 text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ut quis
-            est, id consequuntur sequi ipsum vitae sit non exercitationem.
+            we are dedicated to fostering a community of wellness by delivering
+            exceptional healthcare services that go beyond mere treatment.
           </p>
-          <button className="bg-white text-black ">Enquire Now</button>
+          <button className="bg-white text-black ">Learn More</button>
         </div>
       </div>
     </div>

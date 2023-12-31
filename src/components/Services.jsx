@@ -41,7 +41,7 @@ const Services = () => {
       <div className="grid grid-cols-2 col-span-2 gap-2 mb-4">
         <img
           className="object-cover w-full h-full"
-          src="https://images.pexels.com/photos/6098047/pexels-photo-6098047.jpeg?auto=compress&cs=tinysrgb&w=1200"
+          src="https://images.pexels.com/photos/7659862/pexels-photo-7659862.jpeg?auto=compress&cs=tinysrgb&w=1200"
           alt="/"
         />
         <img
