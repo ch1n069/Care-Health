@@ -7,7 +7,6 @@ import Testimonials from "../components/Testimonials";
 import Services from "../components/Services";
 import ImageSlider from "../components/ImageSlider";
 import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
 
 const HomePage = () => {
   return (
