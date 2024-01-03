@@ -12,7 +12,7 @@ import Navbar from "../components/Navbar";
 const HomePage = () => {
   return (
     <Fragment>
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero />
       <Offers />
       <Plan />
