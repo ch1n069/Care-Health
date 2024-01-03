@@ -9,11 +9,22 @@ const ServicesPage = () => {
     <div className="h-screen ">
       <div className="relative h-[300px] w-full ">
         <img
-          className="top-0 left-0 w-full h-full object-cover"
+          className="top-0 left-0 w-full h-full object-cover "
           src={imageUrl}
           alt="/"
         />
-        <div className="bg-black absolute top-0 left-0 w-full h-full opacity-30" />
+        <div
+          className=" before:content-['']
+          block
+            before:absolute
+            before:inset-0
+            before:block
+            before:bg-gradient-to-r
+            before:from-blue-700
+            before:to-blue-300
+            before:opacity-75
+            before:z-[-5] absolute top-0 left-0 w-full h-full opacity-40"
+        />
         <div className=" absolute top-0 left-0 w-full h-full  flex items-center justify-center text-white">
           <h4>we are her</h4>
         </div>

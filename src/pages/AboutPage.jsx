@@ -10,7 +10,7 @@ const AboutPage = () => {
       <div className="p-8 grid grid-cols-1 sm:grid-cols-2 gap-2">
         {/* create a banner black in color at the top */}
         <div className="pt-8 ">
-          <h4 className="text-4xl font-bold">About us</h4>
+          <h4 className="text-2xl font-bold">About us</h4>
           <p className="text-base text-gray-500">
             With a steadfast commitment to your well-being, we strive to create
             a nurturing environment where every individual is valued and
@@ -23,7 +23,7 @@ const AboutPage = () => {
             priority, and we take pride in being the cornerstone of your journey
             towards a healthier, happier life."
           </p>
-          <h4 className="text-4xl font-bold">History</h4>
+          <h4 className="text-2xl font-bold">History</h4>
           <p className="text-base text-gray-500">
             Founded 2023, Robust health services began as a beacon of hope and
             healing in the realm of healthcare. Rooted in a vision to
