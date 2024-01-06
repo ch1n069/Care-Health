@@ -1,5 +1,7 @@
 import React from "react";
 // import Navbar from "../components/Navbar";
+import { FaFaceSmileBeam } from "react-icons/fa6";
+import { LuFileBadge } from "react-icons/lu";
 
 const ServicesPage = () => {
   const imageUrl =
@@ -31,14 +33,33 @@ const ServicesPage = () => {
       </div>
       <div className="p-2 mt-4 grid md:grid-cols-2 ">
         <div className="mb-4">
-          <h4 className="font-bold text-4xl">What we offer</h4>
-          <p className="text-base mt-4">
+          <h4 className="font-bold text-4xl m-4">What we offer</h4>
+          <p className="text-base m-4">
             Our registered and licensed nurses are dedicated to providing
             comprehensive care that exceeds expectations, whether it's within
             the hospital's clinical setting or the familiar comfort of your
             home. Their expertise extends across various domains, ensuring a
             holistic approach to your health and well-being.
           </p>
+          <div className="bg-blue-400 lg:mt-[40px] m-4 flex rounded-lg p-4 text-white shadow-xl">
+            <div className="border-green-300 flex-1 flex-row">
+              <span className="font-bold text-2xl text-yellow-300">
+                {" "}
+                <FaFaceSmileBeam
+                  className="text-yellow-400 font-extrabold"
+                  size={34}
+                />
+                1000+
+              </span>
+              <h3 className="font-bold text-3xl">Happy Clients</h3>
+            </div>
+            <div className="flex-1">
+              <LuFileBadge size={45} />
+
+              <span className="text-3xl font-extrabold">10</span>
+              <h4 className="font-extrabold">Years experience</h4>
+            </div>
+          </div>
         </div>
         <div className="sm:mt-2">
           <img
