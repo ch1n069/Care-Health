@@ -3,8 +3,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 const Services = () => {
   return (
-    <div className="max-w-[100%] h-[100%] bg-black mx-auto my-20 pt-16 lg:mb-[30%] md:mb-[35%] px-4 grid lg:grid-cols-3 gap-4 text-white">
-      <div className="lg:top-20 relative lg:col-span-1 col-span-2">
+    <div className="max-w-[100%] h-[100%] bg-black mx-auto my-15 pt-16 lg:mb-[30%] md:mb-[35%] px-4 grid lg:grid-cols-3 gap-4 text-white">
+      <div className="lg:top-15 relative lg:col-span-1 col-span-2">
         <h3 className="text-2xl font-bold">Our Services</h3>
         <span className="block w-20 h-1 bg-white mt-5 mb-4"></span>{" "}
         {/* <p className="pt-4">
@@ -13,10 +13,11 @@ const Services = () => {
         </p> */}
         <h5 className="text-2xl font-bold">Nurses (RN’s and RPN’s)</h5>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. iure laborum!
-          Perferendis, id sed vero, facilis blanditiis illo aliquid soluta
+          Our team of dedicated Registered Nurses (RNs) and Registered Practical
+          Nurses (RPNs) prioritize patient well-being, providing compassionate
+          and personalized care.
         </p>
-        <button className="mt-4">
+        <button className="mt-4 hover:bg-white hover:text-black">
           <Link to="/services">Learn More</Link>
         </button>{" "}
         <div className="mt-4">
