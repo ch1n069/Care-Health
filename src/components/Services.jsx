@@ -23,19 +23,24 @@ const Services = () => {
         <div className="mt-4">
           <h5 className="text-2xl font-bold">Personal Support Worker</h5>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. illo
-            aliquid soluta incidunt minima voluptate quae earum laboriosam
-            obcaecati amet.
+            Our team of dedicated Personal Support Workers (PSWs) delivers
+            compassionate and attentive personal care, respecting the dignity
+            and individuality of each client.
           </p>
-          <button className="mt-4">Learn More</button>{" "}
+          <button className="mt-4 hover:bg-white hover:text-black">
+            <Link to="">Learn More</Link>
+          </button>{" "}
         </div>
         <div className="mt-4 mb-4">
           <h5 className="text-2xl font-bold">Development Support Worker</h5>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus ad quos iure laborum! Perferendis, id sed vero,
+            Our Developmental Support Workers (DSWs) craft personalized support
+            plans, catering to the unique needs and goals of individuals with
+            developmental challenges.
           </p>
-          <button className="mt-4">Learn More</button>{" "}
+          <button className="mt-4 hover:bg-white hover:text-black">
+            <Link to="/support-worker">Learn More</Link>
+          </button>{" "}
         </div>
       </div>
 

@@ -15,7 +15,9 @@ const Navbar = () => {
 
   return (
     <div className="bg-black bg-opacity-55 absolute w-full flex justify-between p-4 items-center">
-      <h1 className="text-white font-bold text-2xl z-20">Health Care</h1>
+      <h1 className="text-white font-bold text-2xl z-20 hover:cursor-pointer">
+        <Link to="">Health Care</Link>
+      </h1>
       <HiMenuAlt3
         onClick={handleNav}
         className="z-20 text-white cursor-pointer"

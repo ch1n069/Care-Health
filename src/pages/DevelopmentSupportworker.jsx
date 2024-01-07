@@ -2,7 +2,7 @@ import React from "react";
 
 const DevelopmentSupportworker = () => {
   const imageUrl =
-    "https://images.pexels.com/photos/7551627/pexels-photo-7551627.jpeg?auto=compress&cs=tinysrgb&w=1200";
+    "https://images.pexels.com/photos/339620/pexels-photo-339620.jpeg?auto=compress&cs=tinysrgb&w=800";
   return (
     <div className="h-screen">
       <div className="relative h-[300px] w-full ">
@@ -24,7 +24,7 @@ const DevelopmentSupportworker = () => {
           before:z-[-5] absolute top-0 left-0 w-full h-full opacity-40"
         />
         <div className=" absolute top-0 left-0 w-full h-full  flex items-center justify-center text-white">
-          <h4 className="font-bold text-4xl">Nurses (RN’s and RPN’s)</h4>
+          <h4 className="font-bold text-4xl">Development Support Worker</h4>
         </div>
       </div>
       <div className="p-2 mt-4 grid md:grid-cols-2 ">
