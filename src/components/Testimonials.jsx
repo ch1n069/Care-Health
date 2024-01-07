@@ -47,7 +47,8 @@ const Testimonials = () => {
               </span>
               The 24/7 nursing support has been a lifeline for us. Their
               reliability and understanding during challenging times have been
-              invaluable. We are grateful for their unwavering commitment.
+              invaluable. We are grateful for their unwavering commitment highly
+              recommend their services the best.
             </p>
             <span className="inline-flex h-1 w-14 rounded bg-black mt-4 mb-2"></span>
             <h2 className="title-font font-medium text-sm tracking-wider">
