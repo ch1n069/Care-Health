@@ -1,13 +1,4 @@
-import {
-  RxCrop,
-  RxDesktop,
-  RxPencil2,
-  RxReader,
-  RxAccessibility,
-  RxHome,
-  RxPerson,
-  RxDashboard,
-} from "react-icons/rx";
+import { RxHome, RxPerson, RxDashboard } from "react-icons/rx";
 
 import { FaHouse } from "react-icons/fa6";
 import { IoIosGitNetwork } from "react-icons/io";
