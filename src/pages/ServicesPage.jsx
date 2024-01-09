@@ -2,6 +2,7 @@ import React from "react";
 // import Navbar from "../components/Navbar";
 import { FaFaceSmileBeam } from "react-icons/fa6";
 import { LuFileBadge } from "react-icons/lu";
+import ActiveSlider from "../components/ActiveSlider";
 
 const ServicesPage = () => {
   const imageUrl =
@@ -69,7 +70,7 @@ const ServicesPage = () => {
           />
         </div>
       </div>
-      <h4 className="text-center font-bold text-3xl mt-4">Services</h4>
+      <ActiveSlider />
     </div>
   );
 };
