@@ -9,6 +9,11 @@ import {
   RxDashboard,
 } from "react-icons/rx";
 
+import { FaHouse } from "react-icons/fa6";
+import { IoIosGitNetwork } from "react-icons/io";
+import { LiaConnectdevelop } from "react-icons/lia";
+import { PiBaby } from "react-icons/pi";
+import { FaPersonShelter } from "react-icons/fa6";
 export const Socials = [
   {
     name: "Discord",
@@ -74,7 +79,7 @@ export const ProImages2 = [
 
 export const ServiceData = [
   {
-    icon: RxReader,
+    icon: FaHouse,
     title: "House Keeping Aides",
     content:
       "Our housekeeping aides work in clients’ homes and in the community. They help in household management, cleaning, and meal preparation. Personal freedom, individuality, interpersonal skills, safety and abuse awareness are often emphasized in their service.",
@@ -82,7 +87,7 @@ export const ServiceData = [
       "https://images.pexels.com/photos/4107099/pexels-photo-4107099.jpeg?auto=compress&cs=tinysrgb&w=800",
   },
   {
-    icon: RxCrop,
+    icon: IoIosGitNetwork,
     title: "Social Service workers",
     content:
       "We train our social service staff to work with people who are experiencing distressing events in their lives. These workers help our clients to promote their rights and fulfil their responsibilities in ways that empower them.",
@@ -90,7 +95,7 @@ export const ServiceData = [
       "https://images.pexels.com/photos/4098228/pexels-photo-4098228.jpeg?auto=compress&cs=tinysrgb&w=800",
   },
   {
-    icon: RxPencil2,
+    icon: LiaConnectdevelop,
     title: "Developmental Services",
     content:
       "Our workers that are dedicated to developmental service promote health and well-being and  empowerment of people with developmental disabilities.",
@@ -98,7 +103,7 @@ export const ServiceData = [
       "https://images.pexels.com/photos/5212317/pexels-photo-5212317.jpeg?auto=compress&cs=tinysrgb&w=800",
   },
   {
-    icon: RxDesktop,
+    icon: PiBaby,
     title: "Child & Youth Workers",
     content:
       "We also provide employees who work with troubled, adolescents (4-18 years old) and their families. You can depend on our staff to implement treatment plans for kids and teens who are withdrawn, depressed or violent, have been badly affected by family conflicts.",
@@ -106,7 +111,7 @@ export const ServiceData = [
       "https://images.pexels.com/photos/3087286/pexels-photo-3087286.jpeg?auto=compress&cs=tinysrgb&w=800",
   },
   {
-    icon: RxAccessibility,
+    icon: FaPersonShelter,
     title: "Shelter Support Worker",
     content:
       "We are dedicated to providing shelter and support services to individuals facing crises. Our mission is to create a safe and supportive environment for those in need, helping them rebuild their lives and regain independence.",

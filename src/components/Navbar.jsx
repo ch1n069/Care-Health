@@ -31,14 +31,18 @@ const Navbar = () => {
         }
       >
         <ul className="flex flex-col fixed w-full h-full items-center justify-center">
-          <Link className="font-bold text-3xl p-8">Home</Link>
-          <Link to="/offers" className="font-bold text-3xl p-8">
-            Offers
+          <Link to="/" className="font-bold text-3xl p-8">
+            Home
+          </Link>
+          <Link to="/services" className="font-bold text-3xl p-8">
+            Services
           </Link>
           <Link to="about-us" className="font-bold text-3xl p-8">
             About us
           </Link>
-          <Link className="font-bold text-3xl p-8">Testimonials</Link>
+          <Link to="/" className="font-bold text-3xl p-8">
+            Testimonials
+          </Link>
           <Link className="font-bold text-3xl p-8">Careers</Link>
         </ul>
       </div>
