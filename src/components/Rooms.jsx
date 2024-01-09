@@ -2,12 +2,16 @@ import React from "react";
 
 const Rooms = () => {
   return (
-    <div className="max-w-[1400px] h-[500px] bg-blue-100 mx-auto my-20 pt-16 lg:mb-[20%] md:mb-[35%] px-4 grid lg:grid-cols-3 gap-4">
+    <div className="max-w-[1400px] h-[500px] bg-cyan-500 mx-auto my-20 pt-16 lg:mb-[20%] md:mb-[35%] px-4 grid lg:grid-cols-3 gap-4 text-white">
       <div className="lg:top-20 relative lg:col-span-1 col-span-2">
         <h3 className="text-2xl font-bold">Solving your staffing issues</h3>
         <p className="pt-4">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error ipsam
-          rerum iusto excepturi similique minus?
+          We are a temporary staffing agency that specializes in providing
+          professional, qualified and trained staffing needs for in-home,
+          community healthcare and support services to children and youths with
+          behavioural challenges, seniors with special needs and clients with
+          acquired brain injury, dual diagnosis, autism spectrum disorder and
+          other developmental disabilities.
         </p>
       </div>
 

@@ -22,8 +22,8 @@ const ServicesPage = () => {
             before:inset-0
             before:block
             before:bg-gradient-to-r
-            before:from-blue-700
-            before:to-blue-300
+            before:from-cyan-700
+            before:to-cyan-300
             before:opacity-75
             before:z-[-5] absolute top-0 left-0 w-full h-full opacity-40"
         />
@@ -41,7 +41,7 @@ const ServicesPage = () => {
             home. Their expertise extends across various domains, ensuring a
             holistic approach to your health and well-being.
           </p>
-          <div className="bg-blue-400 lg:mt-[40px] m-4 flex rounded-lg p-4 text-white shadow-xl ">
+          <div className="bg-cyan-500 lg:mt-[40px] m-4 flex rounded-lg p-4 text-white shadow-xl ">
             <div className="border-green-300 flex-1 flex-row">
               <span className="font-bold text-2xl text-yellow-300">
                 {" "}
