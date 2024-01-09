@@ -3,7 +3,7 @@ import React from "react";
 import { FaFaceSmileBeam } from "react-icons/fa6";
 import { LuFileBadge } from "react-icons/lu";
 import ActiveSlider from "../components/ActiveSlider";
-
+import Footer from "../components/Footer";
 const ServicesPage = () => {
   const imageUrl =
     "https://images.pexels.com/photos/7551627/pexels-photo-7551627.jpeg?auto=compress&cs=tinysrgb&w=1200";
@@ -42,7 +42,7 @@ const ServicesPage = () => {
             home. Their expertise extends across various domains, ensuring a
             holistic approach to your health and well-being.
           </p>
-          <div className="bg-cyan-500 lg:mt-[40px] m-4 flex rounded-lg p-4 text-white shadow-xl ">
+          <div className="bg-cyan-600 lg:mt-[40px] m-4 flex rounded-lg p-4 text-white shadow-xl ">
             <div className="border-green-300 flex-1 flex-row">
               <span className="font-bold text-2xl text-yellow-300">
                 {" "}
@@ -71,6 +71,7 @@ const ServicesPage = () => {
         </div>
       </div>
       <ActiveSlider />
+      <Footer />
     </div>
   );
 };

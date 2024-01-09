@@ -49,8 +49,8 @@ const AboutPage = () => {
       </div>
       {/* three cards section */}
       <h4 className="text-center px-8 pb-2 text-4xl font-bold">Our Values</h4>
-      <div className="px-8 grid grid-col-1 gap-4 sm:grid-cols-3">
-        <div className="bg-blue-100   flex flex-col items-center rounded-lg  shadow-lg ">
+      <div className="px-8 grid grid-col-1 gap-4 sm:grid-cols-3 text-white">
+        <div className="bg-cyan-700    flex flex-col items-center rounded-lg  shadow-lg ">
           <span className="text-center">
             <MdHealthAndSafety
               className="text-10xl text-red-500 mt-4"
@@ -58,7 +58,7 @@ const AboutPage = () => {
             />
           </span>
           <h2 className="font-bold">Compassionate Care</h2>
-          <p className="text-center text-gray-600">
+          <p className="text-center ">
             We believe in creating an environment where every individual,
             regardless of their background or circumstances, feels genuinely
             heard, understood, and valued. Our approach to care extends beyond
@@ -66,7 +66,7 @@ const AboutPage = () => {
             concerns, and fostering a compassionate connection..
           </p>
         </div>
-        <div className="bg-blue-100   flex flex-col items-center rounded-lg  shadow-lg ">
+        <div className="bg-cyan-700   flex flex-col items-center rounded-lg  shadow-lg ">
           <span className="text-center">
             <LuHeartHandshake
               className="text-10xl text-red-500 mt-4"
@@ -74,18 +74,18 @@ const AboutPage = () => {
             />
           </span>
           <h2 className="font-bold">Collaboration</h2>
-          <p className="text-center text-gray-600">
+          <p className="text-center ">
             We believe in the power of teamwork and collaboration. By fostering
             partnerships among healthcare professionals, we deliver
             comprehensive care for our patients.
           </p>
         </div>
-        <div className="bg-blue-100   flex flex-col items-center rounded-lg  shadow-lg ">
+        <div className="bg-cyan-700    flex flex-col items-center rounded-lg  shadow-lg ">
           <span className="text-center">
             <GiHealthPotion className="text-10xl text-red-500 mt-4" size={85} />
           </span>
           <h2 className="font-bold">Empowerment</h2>
-          <p className="text-center text-gray-600 mt-4 mb-6">
+          <p className="text-center text-white mt-4 mb-6">
             We believe in creating an environment where every individual,
             regardless of their background or circumstances, feels genuinely
             heard, understood, and valued. Our approach to care extends beyond
