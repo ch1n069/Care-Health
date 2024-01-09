@@ -38,7 +38,7 @@ const Plan = () => {
         </h3>
         <p className="text-2xl py-6">
           We provide personalized care services to support your individual needs
-          so we can be there for you when it matters most?
+          so we can be there for you when it matters most.
         </p>
         {/* <p className="pb-6">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
