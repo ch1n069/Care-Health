@@ -11,7 +11,7 @@ const Testimonials = () => {
           </h1>
         </div>
         <div className="flex flex-col md:flex-row md:space-x-5">
-          <div className="h-full text-center mb-5 p-5 bg-cyan-500 hover:bg-cyan-700 rounded-2xl md:w-1/3">
+          <div className="h-full text-center mb-5 p-5 bg-cyan-700 hover:bg-cyan-500 rounded-2xl md:w-1/3">
             <img
               className="h-24 w-24 object-cover rounded-full inline-block border-2 border-gray-700 bg-opacity-10 justify-center items-center"
               src="https://images.pexels.com/photos/8159657/pexels-photo-8159657.jpeg?auto=compress&cs=tinysrgb&w=1200"
@@ -34,7 +34,7 @@ const Testimonials = () => {
             <p className="text-white">Senior Producer</p>
           </div>
           {/* Repeat similar structure for other testimonials */}
-          <div className="h-full text-center mb-5 p-5 bg-cyan-500 hover:bg-cyan-700 rounded-2xl md:w-1/3">
+          <div className="h-full text-center mb-5 p-5 bg-cyan-700 hover:bg-cyan-500 rounded-2xl md:w-1/3">
             <img
               className="h-24 w-24 object-cover rounded-full inline-block border-2 border-gray-700 bg-opacity-10 justify-center items-center"
               src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
@@ -56,7 +56,7 @@ const Testimonials = () => {
             </h2>
             <p className="text-white-500">Business Owner</p>
           </div>
-          <div className="h-full text-center mb-5 p-5 bg-cyan-500 hover:bg-cyan-700 rounded-2xl md:w-1/3">
+          <div className="h-full text-center mb-5 p-5 bg-cyan-700 hover:bg-cyan-500 rounded-2xl md:w-1/3">
             <img
               className="h-24 w-24 object-cover rounded-full inline-block border-2 border-gray-700 bg-opacity-10 justify-center items-center"
               src="https://images.pexels.com/photos/3764571/pexels-photo-3764571.jpeg?auto=compress&cs=tinysrgb&w=800"
