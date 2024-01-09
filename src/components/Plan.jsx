@@ -40,12 +40,12 @@ const Plan = () => {
           We provide personalized care services to support your individual needs
           so we can be there for you when it matters most?
         </p>
-        <p className="pb-6">
+        {/* <p className="pb-6">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
           voluptates nostrum dolorum reprehenderit error! Doloribus est illo
           eius saepe? Molestias sapiente perspiciatis doloribus consectetur
           nihil facilis aliquid eaque vel quisquam.
-        </p>
+        </p> */}
         <div>
           <button className="border-black mr-4 hover:shadow-xl">
             Learn More
